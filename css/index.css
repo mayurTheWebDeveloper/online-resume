@@ -1,0 +1,366 @@
+body{
+margin:0;
+font-size: 15px;
+}
+.introduction{
+
+  margin:2% 20% 0 20%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hello{
+  font-size: 5rem;
+  font-weight:Lighter;
+  text-align: center;
+}
+.semi-colon-blink{
+  animation: blinker 1s step-start infinite;
+  color: #e9c46a;
+  font-weight: 500;
+
+
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.details-div{
+  width:auto;
+  text-align: left;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:2% 0;
+
+}
+.image-div{
+width: 250px;
+height:290px;
+}
+.myphoto{
+  border-radius: 20% 10%;
+  width:100%;
+  height: 100%;
+}
+.list-div{
+width:220px;
+}
+
+.list-div ul{
+  list-style-type: none;
+  line-height: 2rem;
+  font-size: 0.9rem;
+
+}
+.list-div ul a{
+  color: #000000;
+  text-decoration: none;
+}
+.list-div ul li:hover:nth-of-type(n){
+  border-width: 1px 1px 1px 4px;
+  border-style: solid;
+  border-color: #36C9B8;
+  cursor: pointer;
+
+
+}
+.list-div ul li:hover:nth-of-type(2n){
+  border-width: 1px 1px 1px 4px;
+  border-style: solid;
+  border-color: #e76f51;
+  cursor: pointer;
+
+}
+.name{
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 500;
+}
+.tagline{
+  margin:3% 1% 0 1%;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+.web{
+  text-align: center;
+  font-weight: 800;
+  color: #e9c46a;
+}
+.finance-span{
+  text-align: center;
+  font-weight: 800;
+    color:#e9c46a;
+}
+.down-arrow{
+  text-align: center;
+    margin-top:7%;
+}
+
+.academic-qualification{
+margin:0 20% 0 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.academic-img{
+  display:inline-block;
+}
+.academic-h2{
+  padding-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.academic-qualification hr{
+  margin-left: 1%;
+  margin-right: 0;
+  border: dotted #36C9B8 6px;
+  border-bottom: none;
+  width:100%;
+}
+.academic-details-div{
+  margin:0 20% 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.academic-details-div h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.academic-details-div p{
+  font-family: 'Montserrat', sans-serif;
+}
+.work-experience{
+  margin:2% 20% 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.work-img{
+  display:inline-block;
+  }
+.work-h2{
+  padding-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+.work-experience hr{
+    margin-left: 1%;
+    display: block;
+    border: dotted #e76f51 6px;
+    border-bottom: none;
+    width:100%;
+
+}
+.work-details-div{
+  margin:0 20% 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.work-details-div h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+.work-details-div p{
+  font-family: 'Montserrat', sans-serif;
+}
+.work-details-div li{
+  font-family: 'Montserrat', sans-serif;
+}
+.skills{
+    margin:2% 20% 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.skills-img{
+  display:inline-block;
+  }
+.skills-h2{
+  padding-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+.skills hr{
+    margin-left: 1%;
+    display: block;
+    border: dotted #36C9B8 6px;
+    border-bottom: none;
+    width:100%;
+}
+.skills-details-div{
+  margin:0 20% 0 20%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.skills-details-div h3,h4{
+  font-family: 'Montserrat', sans-serif;
+}
+.skills-details-div ul li{
+  font-family: 'Montserrat', sans-serif;
+  display:inline-block;
+}
+
+
+.personal-projects{
+  margin:2% 20% 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+  .personal-projects-img{
+    display:inline-block;
+  }
+
+  .personal-projects-h2{
+    padding-left: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+
+  }
+  .personal-projects hr{
+    margin-left: 1%;
+    margin-right: 0;
+    border: dotted #e76f51 6px;
+    border-bottom: none;
+    width:100%;
+}
+.personal-projects-div{
+
+  margin:0 20% 0 20%;
+
+}
+.personal-projects-div h4{
+  font-family: 'Montserrat', sans-serif;
+}
+.heroku-app{
+  text-decoration: none;
+  cursor: pointer;
+  color:#e76f51 ;
+}
+/*.awards{
+    margin:2% 10% 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.awards-img{
+  display:inline-block;
+  }
+.awards-h1{
+  padding-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.awards hr{
+    margin-left: 1%;
+    display: block;
+    border: dotted #36C9B8 6px;
+    border-bottom: none;
+    width:100%;
+
+
+}
+*/
+.extracurricular{
+        margin:2% 20% 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .extracurricular-img{
+      display:inline-block;
+    }
+    .extracurricular-h2{
+      padding-left: 1%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+
+    }
+    .extracurricular hr{
+      margin-left: 1%;
+      margin-right: 0;
+      border: dotted #36C9B8 6px;
+      border-bottom: none;
+      width:100%;
+}
+.extracurricular-details-div{
+  margin:0 20% 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.extracurricular-details-div h3,h4,p{
+  font-family: 'Montserrat', sans-serif;
+}
+.extracurricular-details-div ul li{
+  font-family: 'Montserrat', sans-serif;
+}
+.extracurricular-details-div .newspaper-img{
+  color: #36C9B8;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.contact-me{
+  margin:2% 20% 0 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.contact-img{
+display:inline-block;
+}
+.contact-h2{
+padding-left: 1%;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.2rem;
+
+}
+.contact-me hr{
+  margin-left: 1%;
+  display: block;
+  border: dotted #e76f51 6px;
+  border-bottom: none;
+  width:100%;
+}
+.contact-details-div{
+  text-align: center;
+  margin:2% 20% 0 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact-details-div h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-details-div a{
+  text-align: center;
+}
+.fa-brands-1{
+  margin:3% 3%;
+  color:black;
+}
+footer{
+  text-align: center;
+}
